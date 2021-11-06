@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Cigate",
+    "slug": "Cigate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/cigateIcon.png",
+    "splash": {
+      "image": "./assets/cigate.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fb5b5a"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/cigateIcon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.eph.Cigate"
+    },
+    "web": {
+      "favicon": "./assets/cigateIcon.png"
+    }
+  }
+}
